@@ -3,7 +3,7 @@ import { WorkCard } from '@/components/cards/work-card';
 
 export const Demo = () => {
 	return (
-		<div>
+		<div className="bg-gradient-to-t from-primary/30">
 			{worksData.data.map((group) => (
 				<div key={group.id} className="max-w-7xl w-full mx-auto space-y-4 px-4">
 					<h2 className="text-xl capitalize">

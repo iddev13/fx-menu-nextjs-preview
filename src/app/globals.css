@@ -68,7 +68,7 @@
 
 /* Class 'header__fixed' pins the header to the top of the screen */
 .header__fixed {
-	@apply animate-showHeader fixed w-full top-0 left-0 right-0 z-50;
+	@apply animate-showHeader bg-secondary fixed w-full top-0 left-0 right-0 z-50;
 }
 
 .pulse {

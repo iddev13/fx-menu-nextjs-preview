@@ -1,12 +1,12 @@
-import { CssIcon } from '@/components/icons/css-icon';
 import { DropdownIcon } from '@/components/icons/dropdown-icon';
 import { DropdownMenuIcon } from '@/components/icons/dropdown-menu-icon';
 import { FullIcon } from '@/components/icons/full-icon';
-import { JsIcon } from '@/components/icons/js-icon';
 import { JsSimpleIcon } from '@/components/icons/js-simple-icon';
 import { MenuIcon } from '@/components/icons/menu-icon';
+import { NextjsIcon } from '@/components/icons/nextjs-icon';
 import { ResponsiveIcon } from '@/components/icons/responsive-icon';
 import { SvgIcon } from '@/components/icons/svg-icon';
+import { TailwindIcon } from '@/components/icons/tailwind-icon';
 import { ToTopIcon } from '@/components/icons/to-top-icon';
 import { UpdateIcon } from '@/components/icons/update-icon';
 import { ValidIcon } from '@/components/icons/valid-icon';
@@ -39,9 +39,9 @@ export const featuresData: FeaturesType[] = [
 	},
 	{
 		id: 2,
-		title: 'Pure JavaScript',
-		text: 'Not uses jQuery or other javascript library.',
-		Icon: JsIcon,
+		title: 'Next JS',
+		text: 'The React Framework for the Web',
+		Icon: NextjsIcon,
 	},
 	{
 		id: 3,
@@ -63,9 +63,9 @@ export const featuresData: FeaturesType[] = [
 	},
 	{
 		id: 6,
-		title: 'Pure CSS3',
-		text: 'CSS3 Code Without Image',
-		Icon: CssIcon,
+		title: 'Tailwind CSS',
+		text: 'One of the best CSS libraries',
+		Icon: TailwindIcon,
 	},
 	{
 		id: 7,
@@ -112,47 +112,76 @@ export const worksData: WorksDataType = {
 			title: 'mega menu',
 			works: [
 				{
-					id: 1,
-					href: '/',
-					label: 'mega menu v1',
-					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v1.webp',
+					id: 8,
+					href: 'https://mega-menu-with-catalog-nextjs-shadc-ten.vercel.app/',
+					label: 'mega menu with catalog v2',
+					imageUrl:
+						'/assets/image/works/mega-menu-with-catalog-nextjs-shadcn-v2.webp',
+				},
+				{
+					id: 7,
+					href: 'https://mega-menu-with-catalog-nextjs-shadc.vercel.app/',
+					label: 'mega menu with catalog v1',
+					imageUrl:
+						'/assets/image/works/mega-menu-with-catalog-nextjs-shadcn-v1.webp',
+				},
+				{
+					id: 6,
+					href: 'https://mega-menu-nextjs-shadcn-v6.vercel.app/',
+					label: 'mega menu v6',
+					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v6.webp',
+				},
+				{
+					id: 5,
+					href: 'https://mega-menu-nextjs-shadcn-v5.vercel.app/',
+					label: 'mega menu v5',
+					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v5.webp',
+				},
+				{
+					id: 4,
+					href: 'https://mega-menu-nextjs-shadcn-v4.vercel.app/',
+					label: 'mega menu v4',
+					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v4.webp',
+				},
+				{
+					id: 3,
+					href: 'https://mega-menu-nextjs-shadcn-v3.vercel.app/',
+					label: 'mega menu v3',
+					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v3.webp',
 				},
 				{
 					id: 2,
-					href: '/',
+					href: 'https://mega-menu-nextjs-shadcn-v2.vercel.app/',
 					label: 'mega menu v2',
 					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v2.webp',
 				},
 				{
-					id: 3,
-					href: '/',
+					id: 1,
+					href: 'https://mega-menu-nextjs-shadcn-v1.vercel.app/',
 					label: 'mega menu v1',
-					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v3.webp',
-				},
-				{
-					id: 4,
-					href: '/',
-					label: 'mega menu v2',
-					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v4.webp',
-				},
-				{
-					id: 5,
-					href: '/',
-					label: 'mega menu v1',
-					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v3.webp',
-				},
-				{
-					id: 6,
-					href: '/',
-					label: 'mega menu v2',
-					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v4.webp',
+					imageUrl: '/assets/image/works/mega-menu-nextjs-shadcn-v1.webp',
 				},
 			],
 		},
 		{
 			id: 2,
 			title: 'full-screen menu',
-			works: [],
+			works: [
+				{
+					id: 1,
+					href: 'https://full-screen-menu-nextjs-shadcn-v1.vercel.app/',
+					label: 'full-screen menu v1',
+					imageUrl:
+						'/assets/image/works/full-screen-menu-nextjs-shadcn-v1.webp',
+				},
+				{
+					id: 2,
+					href: 'https://full-screen-menu-nextjs-shadcn-v2.vercel.app/',
+					label: 'full-screen menu v2',
+					imageUrl:
+						'/assets/image/works/full-screen-menu-nextjs-shadcn-v2.webp',
+				},
+			],
 		},
 		{
 			id: 3,
